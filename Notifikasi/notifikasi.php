@@ -19,30 +19,32 @@
         <div class="card d-flex justify-content-center align-items-center" style="width: 500px;">
             <div class="card-body">
                 <h4 class="card-title fw-bold"> Semua</h4>
-                <div class="text-start">
-                    <p class="card-text fs-6 fw-bold"><i class="bi bi-megaphone-fill"></i> Beli 2 Gratis 1!</p>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">Teh Pucuk di T-Mart GKU</h6>
-                </div>
-                <div class="text-start">
-                    <p class="card-text fs-6 fw-bold">Popmie Hanya 5k!</p>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">Popmie 5k hanya di MP-Mart FIT</h6>
-                </div>
-                <div class="text-start">
-                    <p class="card-text fs-6 fw-bold">Cuma 3k aja!</p>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">Tel-U Water 600ml di MP-Mart FIT, khusus jam
-                        9-11
-                        pagi.</h6>
-                </div>
-                <div class="text-start">
-                    <p class="card-text fs-6 fw-bold">Harga Gila!</p>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">Nasi Goreng Ayam hanya 10k di kantin Asrama
-                        Putra.
-                    </h6>
-                </div>
-                <div class="text-start">
-                    <p class="card-text fs-6 fw-bold">Selamat, Akun Tel-U Finance Anda telah aktif!</p>
-                    <p class="card-text fs-6 fw-bold">Anda berhasil masuk ke Tel-U Finance!</p>
-                </div>
+                <ul class="list-group list-group-flush">
+                    <div class="text-start">
+                        <p class="card-text fs-6 fw-bold"><i class="bi bi-megaphone-fill"></i> Beli 2 Gratis 1!</p>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Teh Pucuk di T-Mart GKU</h6>
+                    </div>
+                    <div class="text-start">
+                        <p class="card-text fs-6 fw-bold">Popmie Hanya 5k!</p>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Popmie 5k hanya di MP-Mart FIT</h6>
+                    </div>
+                    <div class="text-start">
+                        <p class="card-text fs-6 fw-bold">Cuma 3k aja!</p>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Tel-U Water 600ml di MP-Mart FIT, khusus jam
+                            9-11
+                            pagi.</h6>
+                    </div>
+                    <div class="text-start">
+                        <p class="card-text fs-6 fw-bold">Harga Gila!</p>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Nasi Goreng Ayam hanya 10k di kantin Asrama
+                            Putra.
+                        </h6>
+                    </div>
+                    <div class="text-start">
+                        <p class="card-text fs-6 fw-bold">Selamat, Akun Tel-U Finance Anda telah aktif!</p>
+                        <p class="card-text fs-6 fw-bold">Anda berhasil masuk ke Tel-U Finance!</p>
+                    </div>
+                </ul>
             </div>
         </div>
 </body>
