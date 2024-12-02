@@ -10,42 +10,164 @@
 </head>
 
 <body>
-    <div class="container"
-        style="text-align: center; flex: auto; gap: 4; justify-items: center; align-items: center; margin-top: 20px;">
+    <div class="container mt-4"
+        style="text-align: center; flex: auto; gap: 3; justify-items: center; align-items: center; margin-top: 20px;">
         <h1 class="description"
             style="font-size: 50px; color: #000000; max-width: 700px; margin-top: 10px; justify-items:center;">
             NOTIFIKASI
         </h1>
-        <div class="card d-flex justify-content-center align-items-center" style="width: 500px;">
-            <div class="card-body">
-                <h4 class="card-title fw-bold"> Semua</h4>
-                <ul class="list-group list-group-flush">
-                    <div class="text-start">
-                        <i class="bi bi-megaphone-fill"></i>
-                        <p class="card-text fs-6 fw-bold"> Beli 2 Gratis 1!</p>
-                        <h6 class="card-subtitle mb-2 text-body-secondary">Teh Pucuk di T-Mart GKU</h6>
+        <div class="row mt-4 justify-content-center">
+            <div class="col-md-4 mb-4">
+                <div class="card d-flex justify-content-center align-items-center" style="height:100%;">
+                    <div class="card-body">
+                        <h4 class="card-title fw-bold"> Semua</h4><br>
+                        <ul class="list-group list-group-flush">
+                            <div class="d-flex align-items-start mb-3">
+                                <i class="bi bi-megaphone-fill me-2"></i>
+                                <div class="text-start">
+                                    <p class="card-text fs-6 fw-bold mb-1">
+                                        Beli 2 Gratis 1!</p>
+                                    <p class="card-subtitle mb-2 text-body-secondary">Teh Pucuk di T-Mart GKU</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start mb-3">
+                                <i class="bi bi-tag-fill me-2"></i>
+                                <div class="text-start">
+                                    <p class="card-text fs-6 fw-bold mb-1">Beli Mie Goreng, Gratis 1 Teh Pucuk!!!</p>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Beli Mie Goreng, Gratis 1 Teh
+                                        Pucuk
+                                        dikantin asrama. Berlaku hingga 12 DEsember 2024!!
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start mb-3">
+                                <i class="bi bi-megaphone-fill me-2"></i>
+                                <div class="text-start">
+                                    <p class="card-text fs-6 fw-bold mb-1">Cuma 3k aja!</p>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Tel-U Water 600ml di MP-Mart FIT,
+                                        khusus
+                                        jam 9-11 pagi.</h6>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start mb-3">
+                                <i class="bi bi-tag-fill me-2"></i>
+                                <div class="text-start">
+                                    <p class="card-text fs-6 fw-bold mb-1">Diskon 5 point!</p>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Gunakan kode voucher "HEMAT"
+                                        untuk
+                                        mendapatkan diskon 5 point untuk minimum belanja 20 point.
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start mb-3">
+                                <i class="bi bi-megaphone-fill me-2"></i>
+                                <div class="text-start">
+                                    <p class="card-text fs-6 fw-bold mb-1">Harga Gila!</p>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Nasi Goreng Ayam hanya 10k di
+                                        kantin
+                                        Asrama
+                                        Putra.
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start mb-3">
+                                <i class="bi bi-tag-fill me-2"></i>
+                                <div class="text-start">
+                                    <p class="card-text fs-6 fw-bold mb-1">AKTIVASI</p>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Gunakan kode voucher "AKTIVASI"
+                                        untuk
+                                        mendapatkan
+                                        diskon 10 point pada transaksi pertama anda!.Berlaku hanya untuk 1x transaksi.
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="text-start">
+                                <p class="card-text fs-6 fw-bold mb-3">Selamat, Akun Tel-U Finance Anda telah aktif!</p>
+                                <p class="card-text fs-6 fw-bold mb-3">Anda berhasil masuk ke Tel-U Finance!</p>
+                            </div>
+                        </ul>
                     </div>
-                    <div class="text-start">
-                        <p class="card-text fs-6 fw-bold">Popmie Hanya 5k!</p>
-                        <h6 class="card-subtitle mb-2 text-body-secondary">Popmie 5k hanya di MP-Mart FIT</h6>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 mb-4">
+                <div class="card d-flex justify-content-center align-items-center" style="height:100%;">
+                    <div class="card-body">
+                        <h4 class="card-title fw-bold"> Promosi</h4><br>
+                        <ul class="list-group list-group-flush">
+                            <div class="d-flex align-items-start mb-3">
+                                <i class="bi bi-megaphone-fill me-2"></i>
+                                <div class="text-start">
+                                    <p class="card-text fs-6 fw-bold mb-1">
+                                        Beli 2 Gratis 1!</p>
+                                    <p class="card-subtitle mb-2 text-body-secondary">Teh Pucuk di T-Mart GKU</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start mb-3">
+                                <i class="bi bi-megaphone-fill me-2"></i>
+                                <div class="text-start">
+                                    <p class="card-text fs-6 fw-bold mb-1">Cuma 3k aja!</p>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Tel-U Water 600ml di MP-Mart FIT,
+                                        khusus
+                                        jam 9-11 pagi.</h6>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start mb-3">
+                                <i class="bi bi-megaphone-fill me-2"></i>
+                                <div class="text-start">
+                                    <p class="card-text fs-6 fw-bold mb-1">Harga Gila!</p>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Nasi Goreng Ayam hanya 10k di
+                                        kantin
+                                        Asrama
+                                        Putra.
+                                    </h6>
+                                </div>
+                            </div>
+                        </ul>
                     </div>
-                    <div class="text-start">
-                        <p class="card-text fs-6 fw-bold">Cuma 3k aja!</p>
-                        <h6 class="card-subtitle mb-2 text-body-secondary">Tel-U Water 600ml di MP-Mart FIT, khusus jam
-                            9-11
-                            pagi.</h6>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card d-flex justify-content-center align-items-center" style="height:100%;">
+                    <div class="card-body">
+                        <h4 class="card-title fw-bold"> Voucher</h4><br>
+                        <ul class="list-group list-group-flush">
+                            <div class="d-flex align-items-start mb-3">
+                                <i class="bi bi-tag-fill me-2"></i>
+                                <div class="text-start">
+                                    <p class="card-text fs-6 fw-bold mb-1">Beli Mie Goreng, Gratis 1 Teh Pucuk!!!</p>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Beli Mie Goreng, Gratis 1 Teh
+                                        Pucuk
+                                        dikantin asrama. Berlaku hingga 12 DEsember 2024!!
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start mb-3">
+                                <i class="bi bi-tag-fill me-2"></i>
+                                <div class="text-start">
+                                    <p class="card-text fs-6 fw-bold mb-1">Diskon 5 point!</p>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Gunakan kode voucher "HEMAT"
+                                        untuk
+                                        mendapatkan diskon 5 point untuk minimum belanja 20 point.
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start mb-3">
+                                <i class="bi bi-tag-fill me-2"></i>
+                                <div class="text-start">
+                                    <p class="card-text fs-6 fw-bold mb-1">AKTIVASI</p>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Gunakan kode voucher "AKTIVASI"
+                                        untuk
+                                        mendapatkan
+                                        diskon 10 point pada transaksi pertama anda!.Berlaku hanya untuk 1x transaksi.
+                                    </h6>
+                                </div>
+                            </div>
+                        </ul>
                     </div>
-                    <div class="text-start">
-                        <p class="card-text fs-6 fw-bold">Harga Gila!</p>
-                        <h6 class="card-subtitle mb-2 text-body-secondary">Nasi Goreng Ayam hanya 10k di kantin Asrama
-                            Putra.
-                        </h6>
-                    </div>
-                    <div class="text-start">
-                        <p class="card-text fs-6 fw-bold">Selamat, Akun Tel-U Finance Anda telah aktif!</p>
-                        <p class="card-text fs-6 fw-bold">Anda berhasil masuk ke Tel-U Finance!</p>
-                    </div>
-                </ul>
+                </div>
             </div>
         </div>
 </body>
