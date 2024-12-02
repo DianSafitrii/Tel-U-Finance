@@ -1,0 +1,45 @@
+/* Styling untuk body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+/* Styling container utama */
+.container {
+  text-align: center;
+  flex: auto;
+  gap: 4;
+  justify-items: center;
+  align-items: center;
+  margin-top: 50px;
+  
+}
+
+/* Styling logo */
+.logo {
+  width: 350px; /* Ukuran logo */
+  height: auto;
+}
+
+/* Styling teks logo */
+.text-logo {
+  width: 400px; /* Ukuran logo */
+  height: auto;
+}
+
+/* Styling deskripsi */
+.description {
+  /* margin-top: 10px; */
+  font-size: 20px;
+  color: #686767;
+  max-width: 700px;
+  margin-top: 10px;
+}
+
