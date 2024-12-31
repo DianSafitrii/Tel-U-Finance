@@ -20,7 +20,7 @@ if (!$koneksi) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beranda Admin</title>
+    <title>Beranda Kasir</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -59,7 +59,7 @@ if (!$koneksi) {
             cursor: pointer;
         }
 
-        
+
 
         .logout {
             background-color: #800000;
@@ -86,7 +86,6 @@ if (!$koneksi) {
         }
 
 
-        
 
         body {
             background-size: cover;
@@ -114,10 +113,11 @@ if (!$koneksi) {
             <a href="pengeluaran.php">DATA PENGELUARAN</a>
             <a href="datauser.php">DATA USER</a>
         </nav> -->
+
         <div class="right-section">
-        <div class="profile">
-                <img src="admin.jpeg" alt="Profile">
-                <span>Halo, Admin!</span>
+            <div class="profile">
+                <img src="kasir.jpeg" alt="Profile">
+                <span>Halo, Kasir!</span>
             </div>
             <a href="logout.php"><button class="button logout">LOGOUT</button></a>
         </div>
@@ -125,53 +125,54 @@ if (!$koneksi) {
 
 
     <!-- Wrapper untuk Pusatkan Main -->
-<div class="flex items-center justify-center min-h-screen bg-gray-100">
-    <!-- Main Content -->
-    <main class="w-4/5 p-8 mt-6">
-        <!-- REGISTRASI MAHASISWA -->
-        <div class="grid grid-cols-2 gap-6 mb-6 h-[360px]">
-            <!-- Pengeluaran Mahasiswa -->
-            <div class="bg-[#8B0000] text-white rounded-lg shadow-lg flex items-center justify-center h-full">
-                <a href="datauser.php" class="block w-full h-full">
-                    <div class="flex flex-col items-center justify-center h-full">
-                        <img src="https://i.pinimg.com/236x/15/fc/ec/15fcec615b6b95f0b83e270281db4859.jpg" 
-                             alt="Registrasi Mahasiswa" 
-                             class="w-36 h-36 object-cover mb-4">
-                        <h2 class="text-2xl text-center">Registrasi Mahasiswa</h2>
-                    </div>
-                </a>
+    <div class="flex items-center justify-center min-h-screen bg-gray-100">
+        <!-- Main Content -->
+        <main class="w-4/5 p-8 mt-6">
+            <!-- REGISTRASI MAHASISWA -->
+            <div class="grid grid-cols-2 gap-6 mb-6 h-[360px]">
+                <!-- Pengeluaran Mahasiswa -->
+                <div class="bg-[#8B0000] text-white rounded-lg shadow-lg flex items-center justify-center h-full">
+                    <a href="datapengeluaran.php" class="block w-full h-full">
+                        <div class="flex flex-col items-center justify-center h-full">
+                            <img src="PENGELUARAN.png"
+                                alt="Registrasi Mahasiswa"
+                                class="w-40 h-40 object-cover mb-4">
+                            <h2 class="text-2xl text-center">Pengeluaran Mahasiswa</h2>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Top-Up Saldo -->
+                <div class="bg-[#D3D3D3] text-black rounded-lg shadow-lg flex items-center justify-center h-full">
+                    <a href="datatopupsaldo.php" class="block w-full h-full">
+                        <div class="flex flex-col items-center justify-center h-full">
+                            <img src="TOPUP-baru.png"
+                                alt="Top-Up Saldo"
+                                class="w-36 h-36 object-cover mb-4">
+                            <h2 class="text-2xl text-center">Pemasukan Mahasiswa</h2>
+                        </div>
+                    </a>
+                </div>
             </div>
 
-            <!-- Top-Up Saldo -->
-            <div class="bg-[#D3D3D3] text-black rounded-lg shadow-lg flex items-center justify-center h-full">
-                <a href="datamahasiswa.php" class="block w-full h-full">
-                    <div class="flex flex-col items-center justify-center h-full">
-                        <img src="MAHASISWA-baru.png"
-                             alt="Top-Up Saldo" 
-                             class="w-36 h-36 object-cover mb-4">
-                        <h2 class="text-2xl text-center">Data Mahasiswa</h2>
-                    </div>
-                </a>
+            <!-- Data Transaksi -->
+            <div class="grid grid-cols-1 gap-6 h-[360px]">
+                <div class="bg-[#8B0000] text-white rounded-lg shadow-lg flex items-center justify-center h-full w-full">
+                    <a href="datatransaksi2.php" class="block w-full h-full">
+                        <div class="flex flex-col items-center justify-center h-full">
+                            <img src="TRANSAKSI-baru.png" alt="Data Transaksi" class="w-36 h-36 object-cover mb-4">
+                            <h2 class="text-2xl text-center">Data Transaksi</h2>
+                        </div>
+                    </a>
+                </div>
             </div>
-        </div>
-
-        <!-- Data Transaksi -->
-        <div class="grid grid-cols-1 gap-6 h-[360px]">
-            <div class="bg-[#8B0000] text-white rounded-lg shadow-lg flex items-center justify-center h-full w-full">
-                <a href="datatransaksi.php" class="block w-full h-full">
-                    <div class="flex flex-col items-center justify-center h-full">
-                        <img src="TRANSAKSI-baru.png" alt="Data Transaksi" class="w-36 h-36 object-cover mb-4">
-                        <h2 class="text-2xl text-center">Data Transaksi</h2>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </main>
-</div>
+        </main>
+    </div>
 
 
 
-</div>
+    </div>
 
 </body>
+
 </html>
